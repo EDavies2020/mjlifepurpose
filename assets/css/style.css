@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100;1,600&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,300;1,600&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
 
 /*--font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;--*/
 
+.homepage {
+    background: #fafafa;
+}
 /* --nav bar-- */
 .topbar {
     background-color: #fafafa;
 }
 #navbar {
     font-family: 'Montserrat', sans-serif;
-    font-style: bold;
     font-weight: 500;
-    float: right;
+    border-bottom: solid 0.5px rgb(209, 69, 93);
 }
 .nav-item {
     padding: 10px 20px;
@@ -20,6 +22,62 @@ font-family: 'Roboto', sans-serif;--*/
 .homepage-header {
     background-color: #fafafa;
 }
+.homepage-header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700!important;
+    font-size: 60px;
+    color: rgb(31, 117, 64);
+    padding-right: 100px;
+}
+.homepage-header h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700!important;
+    font-size: 25px;
+    color: black;
+    padding-right: 90px;
+}
+.homepage-header h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 80px;
+    color: rgb(209, 69, 93);
+}
+.business-name {
+    text-align: right;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    border-bottom: solid 0.5px rgb(209, 69, 93);
+}
 .main-image {
-    border-radius: 15px 50px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    width: 70%;
+    border-radius: 20px 200px 20px;
+    border: solid 1.5px rgb(31, 117, 64);
+    margin-right: 40px;
+}
+.welcome {
+    padding-top: 100px;
+}
+.welcome-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 100%;
+}
+.welcome-letter {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888
+}
+.welcome-letter p {
+    padding: 10px 15px;
+}
+.welcome-image {
+    padding: 10px 15px;
 }
