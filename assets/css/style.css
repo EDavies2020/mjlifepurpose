@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,300;1,600&family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Flamenco:wght@300;400&family=Lato:ital,wght@0,700;1,300;1,700&family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,300;1,600&family=Poiret+One&family=Roboto:ital,wght@0,100;0,700;1,100&family=Satisfy&family=Special+Elite&display=swap');
 
-/*--font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;--*/
+/**--font-family: 'Comfortaa', cursive;
+font-family: 'Flamenco', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Special Elite', cursive;--*/
 
 .homepage {
     background: #fafafa;
@@ -23,27 +29,27 @@ font-family: 'Roboto', sans-serif;--*/
     background-color: #fafafa;
 }
 .homepage-header h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 60px;
-    color: rgb(31, 117, 64);
     padding-right: 100px;
+    color: rgb(209, 69, 93);
 }
 .homepage-header h3 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 25px;
     color: black;
     padding-right: 90px;
 }
 .homepage-header h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-family: 'Flamenco', cursive;
+    font-weight: 400;
     font-style: italic;
     padding-top: 40px;
     padding-left: 200px;
     padding-right: 80px;
-    color: rgb(209, 69, 93);
+    color: rgb(31, 117, 64);
 }
 .business-name {
     text-align: right;
@@ -60,24 +66,71 @@ font-family: 'Roboto', sans-serif;--*/
     border: solid 1.5px rgb(31, 117, 64);
     margin-right: 40px;
 }
+/* --Welcome section-- */
 .welcome {
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px
 }
-.welcome-pic {
+.welcome-letter {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    border-radius: 100%;
-}
-.welcome-letter {
+    width: 90%;
     border: 1px solid;
-    padding: 10px;
     box-shadow: 5px 10px 18px #888888
 }
 .welcome-letter p {
-    padding: 10px 15px;
+    padding: 10px 40px;
 }
-.welcome-image {
-    padding: 10px 15px;
+.welcome-letter img {
+    float: left;
+    width: auto;
+    height: 320px;
+    margin-right: 25px;
+}
+.welcome-letter .topofletter {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(31, 117, 64);
+    padding-top: 50px;
+}
+.welcome-letter .bottomofletter {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(209, 69, 93);
+}
+/* --links to other pages-- */
+.background1 {
+    background: indigo;
+    border-radius: 5px 5px 5px 5px;
+}
+.background2 {
+    background: rgb(26, 130, 0);
+    border-radius: 5px 5px 5px 5px;
+}
+.service-image img{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    height: 550px;
+    margin-top: 30px;
+    margin-left: auto;
+    border: solid 2px #fafafa;
+}
+.service-text {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fafafa;
+    margin-top: 40px;
+}
+.service-text h2 {
+
+}
+.service-text h6 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.service-text p {
+    padding-bottom: 20px;
 }
