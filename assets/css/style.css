@@ -19,7 +19,7 @@ font-family: 'Special Elite', cursive;--*/
 #navbar {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    border-bottom: solid 0.5px rgb(209, 69, 93);
+    border-bottom: solid 2px rgb(209, 69, 93);
 }
 .nav-item {
     padding: 10px 20px;
@@ -55,7 +55,7 @@ font-family: 'Special Elite', cursive;--*/
     text-align: right;
     padding-top: 120px;
     padding-bottom: 20px;
-    border-bottom: solid 0.5px rgb(209, 69, 93);
+    border-bottom: solid 2px rgb(209, 69, 93);
 }
 .main-image {
     display: block;
@@ -63,7 +63,7 @@ font-family: 'Special Elite', cursive;--*/
     margin-top: 15px;
     width: 70%;
     border-radius: 20px 200px 20px;
-    border: solid 1.5px rgb(31, 117, 64);
+    border: solid 2px rgb(31, 117, 64);
     margin-right: 40px;
 }
 /* --Welcome section-- */
@@ -76,17 +76,11 @@ font-family: 'Special Elite', cursive;--*/
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    border: 1px solid;
-    box-shadow: 5px 10px 18px #888888
+    border: 2px solid grey;
+    box-shadow: 5px 10px 18px rgb(31, 117, 64);
 }
 .welcome-letter p {
     padding: 10px 40px;
-}
-.welcome-letter img {
-    float: left;
-    width: auto;
-    height: 320px;
-    margin-right: 25px;
 }
 .welcome-letter .topofletter {
     font-family: 'Montserrat', sans-serif;
@@ -94,43 +88,23 @@ font-family: 'Special Elite', cursive;--*/
     color: rgb(31, 117, 64);
     padding-top: 50px;
 }
-.welcome-letter .bottomofletter {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    color: rgb(209, 69, 93);
+.welcome-letter img {
+    height: 100px;
+    width: 263px;
+    margin-bottom: 35px;
 }
-/* --links to other pages-- */
-.background1 {
-    background: indigo;
-    border-radius: 5px 5px 5px 5px;
+/* --links to services pages-- */
+.lifecoach-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(/assets/images/homepage/michaelandson.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 10px;
 }
-.background2 {
-    background: rgb(26, 130, 0);
-    border-radius: 5px 5px 5px 5px;
-}
-.service-image img{
-    display: block;
-    width: 80%;
-    margin-right: auto;
-    height: 550px;
-    margin-top: 30px;
-    margin-left: auto;
-    border: solid 2px #fafafa;
-}
-.service-text {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: #fafafa;
-    margin-top: 40px;
-}
-.service-text h2 {
-
-}
-.service-text h6 {
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
-.service-text p {
-    padding-bottom: 20px;
+.image-text {
+  text-align: center;
+  color: white;
+  padding: 60px;
 }
