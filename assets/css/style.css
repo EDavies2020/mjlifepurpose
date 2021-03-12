@@ -99,6 +99,8 @@ font-family: 'Special Elite', cursive;--*/
 }
 .services-section img {
     width: 100%;
+    height: 600px;
+    padding: 20px;
 }
 .image-text {
   position: absolute;
@@ -108,4 +110,8 @@ font-family: 'Special Elite', cursive;--*/
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
+  margin: 20px;
+}
+.image-text a {
+color: white;
 }
