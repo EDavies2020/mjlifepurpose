@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Flamenco:wght@300;400&family=Lato:ital,wght@0,700;1,300;1,700&family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,300;1,600&family=Poiret+One&family=Roboto:ital,wght@0,100;0,700;1,100&family=Satisfy&family=Special+Elite&display=swap');
-
-/**--font-family: 'Comfortaa', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200&family=Roboto+Slab:wght@200;300;400;500&family=Special+Elite&display=swap');
+/* font-family: 
 font-family: 'Flamenco', cursive;
-font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
-font-family: 'Poiret One', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Satisfy', cursive;
-font-family: 'Special Elite', cursive;--*/
+font-family: 'Roboto Slab', serif;
+font-family: 'Special Elite', cursive; */
+
 
 .homepage {
     background: #fafafa;
@@ -19,25 +16,21 @@ font-family: 'Special Elite', cursive;--*/
 #navbar {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    border-bottom: solid 2px rgb(209, 69, 93);
+    border-bottom: solid 1.5px rgb(209, 69, 93);
 }
 .nav-item {
     padding: 10px 20px;
 }
-/* --header-- */
-.homepage-header {
-    background-color: #fafafa;
-}
 .homepage-header h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     font-size: 60px;
     padding-right: 100px;
     color: rgb(209, 69, 93);
 }
 .homepage-header h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     font-size: 25px;
     color: black;
     padding-right: 90px;
@@ -46,25 +39,22 @@ font-family: 'Special Elite', cursive;--*/
     font-family: 'Flamenco', cursive;
     font-weight: 400;
     font-style: italic;
-    padding-top: 40px;
-    padding-left: 200px;
+    padding-top: 30px;
     padding-right: 80px;
     color: rgb(31, 117, 64);
 }
-.business-name {
+.business-name-home {
     text-align: right;
-    padding-top: 120px;
+    padding-top: 95px;
     padding-bottom: 20px;
-    border-bottom: solid 2px rgb(209, 69, 93);
+    border-bottom: solid 1.5px rgb(209, 69, 93);
 }
 .main-image {
     display: block;
-    margin-bottom: 5px;
     margin-top: 15px;
-    width: 70%;
     border-radius: 20px 200px 20px;
     border: solid 2px rgb(31, 117, 64);
-    margin-right: 40px;
+    width: 80%;
 }
 /* --Welcome section-- */
 .welcome {
@@ -75,23 +65,24 @@ font-family: 'Special Elite', cursive;--*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     border: 2px solid grey;
-    box-shadow: 5px 10px 18px rgb(31, 117, 64);
+    box-shadow: 5px 10px 40px rgb(31 117 64);
 }
 .welcome-letter p {
-    padding: 10px 40px;
+    padding: 5px 25px;
 }
 .welcome-letter .topofletter {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    font-weight: 500;
     color: rgb(31, 117, 64);
     padding-top: 50px;
 }
 .welcome-letter img {
-    height: 80px;
-    width: 225px;
-    margin-bottom: 35px;
+    height: 60px;
+    width: 190px;
+    margin-bottom: 50px;
 }
 /* --links to services pages-- */
 .services-sectionp {
@@ -142,7 +133,7 @@ color: white;
     font-family: 'Montserrat', sans-serif;
     color: rgb(31, 117, 64);
     font-weight: 500;
-    border-top: solid 2px rgb(209, 69, 93);
+    border-top: solid 1.5px rgb(209, 69, 93);
     padding-top: 20px;
 }
 .footer p a {
@@ -151,4 +142,31 @@ color: white;
 }
 #copywrite {
     font-size: small;
+}
+.other-header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 45px;
+    padding-right: 100px;
+    color: rgb(209, 69, 93);
+}
+.other-header h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    padding-right: 90px;
+}
+.other-header h5 {
+    font-family: 'Flamenco', cursive;
+    font-weight: 400;
+    font-style: italic;
+    padding-right: 80px;
+    color: rgb(31, 117, 64);
+}
+.business-name-other {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1.5px rgb(209, 69, 93);
 }
