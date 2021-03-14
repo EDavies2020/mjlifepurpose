@@ -16,17 +16,20 @@ font-family: 'Special Elite', cursive; */
 #navbar {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    border-bottom: solid 1.5px rgb(209, 69, 93);
+    border-bottom: solid 2.5px rgb(233, 62, 147);
 }
 .nav-item {
     padding: 10px 20px;
+}
+.homepage-header{
+    background-color: rgb(248, 243, 246);
 }
 .homepage-header h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 60px;
     padding-right: 100px;
-    color: rgb(209, 69, 93);
+    color: rgb(209, 57, 133);
 }
 .homepage-header h3 {
     font-family: 'Roboto Slab', serif;
@@ -41,20 +44,20 @@ font-family: 'Special Elite', cursive; */
     font-style: italic;
     padding-top: 30px;
     padding-right: 80px;
-    color: rgb(31, 117, 64);
+    color: rgb(18, 124, 124);
 }
 .business-name-home {
     text-align: right;
-    padding-top: 95px;
+    padding-top: 40px;
     padding-bottom: 20px;
-    border-bottom: solid 1.5px rgb(209, 69, 93);
+    border-bottom: solid 2.5px rgb(233, 62, 147);
 }
 .main-image {
     display: block;
     margin-top: 15px;
-    border-radius: 20px 200px 20px;
-    border: solid 2px rgb(31, 117, 64);
-    width: 80%;
+    border-radius: 15px 120px 20px;
+    border: solid 3px rgb(31, 117, 64);
+    width: 72%;
 }
 /* --Welcome section-- */
 .welcome {
@@ -76,7 +79,7 @@ font-family: 'Special Elite', cursive; */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(31, 117, 64);
+    color: rgb(30, 50, 60);
     padding-top: 50px;
 }
 .welcome-letter img {
@@ -129,25 +132,29 @@ color: white;
 }
 /* --footer-- */
 .footer {
+    background-color: rgb(248, 243, 246);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(31, 117, 64);
+    color: rgb(18, 124, 124);
     font-weight: 500;
-    border-top: solid 1.5px rgb(209, 69, 93);
+    border-top: solid 1.5px rgb(233, 62, 147);
     padding-top: 20px;
 }
 .footer p a {
-    color: rgb(31, 117, 64);
+    color: rgb(18, 124, 124);
     font-weight: bold;
 }
 #copywrite {
     font-size: small;
 }
+.other-header{
+    background-color: rgb(248, 243, 246);
+}
 .other-header h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 45px;
-    padding-right: 100px;
+    padding-right: 200px;
     color: rgb(209, 69, 93);
 }
 .other-header h3 {
@@ -155,18 +162,18 @@ color: white;
     font-weight: 400;
     font-size: 20px;
     color: black;
-    padding-right: 90px;
+    padding-right: 120px;
 }
 .other-header h5 {
     font-family: 'Flamenco', cursive;
     font-weight: 400;
     font-style: italic;
-    padding-right: 80px;
-    color: rgb(31, 117, 64);
+    padding-right: 110px;
+    color: rgb(18, 124, 124);
 }
 .business-name-other {
     text-align: right;
     padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 1.5px rgb(209, 69, 93);
+    padding-bottom: 100px;
+    border-bottom: solid 1.5px rgb(233, 62, 147);
 }
