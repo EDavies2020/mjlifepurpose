@@ -1,10 +1,10 @@
 // therapies page - tabs
 
-function openCity(cityName) {
+function openServices(serviceName) {
   var i;
-  var x = document.getElementsByClassName("city");
+  var x = document.getElementsByClassName("service");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
-  document.getElementById(cityName).style.display = "block";  
+  document.getElementById(serviceName).style.display = "block";  
 }

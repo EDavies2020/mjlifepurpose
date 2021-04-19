@@ -27,7 +27,7 @@
                             <a class="nav-link" href="aboutme.html">My Story</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="therapies.html">Therapies</a>
+                            <a class="nav-link" href="services.html">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Get in Touch</a>
@@ -50,23 +50,38 @@
 <!--therapies-->
 <section>
     <div class="row no-gutters">
-        <div class="col-12 therapy-tabs">
-            <div class="w3-bar w3-black">
-                <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
-                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
-                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+        <div class="col-12 services-tabs">
+            <div class="services-bar">
+                <button class="bar-item button" onclick="openServices('Life')">Life coaching</button>
+                <button class="bar-item button" onclick="openServices('Fit')">Personal training & fitness</button>
+                <button class="bar-item button" onclick="openServices('Yoga')">Yoga</button>
+                <button class="bar-item button" onclick="openServices('Massage')">Sports massage</button>
+                <button class="bar-item button" onclick="openServices('Holistic')">Holistic therapies</button>
+                <button class="bar-item button" onclick="openServices('Training')">Professional training</button>
             </div>
-            <div id="London" class="w3-container city">
-                <h2>London</h2>
-                <p>London is the capital city of England.</p>
+            <div id="Life" class="services-container service">
+                <h2>Life coaching</h2>
+                <p>info</p>
             </div>
-            <div id="Paris" class="w3-container city" style="display:none">
-                <h2>Paris</h2>
-                <p>Paris is the capital of France.</p> 
+            <div id="Fit" class="services-container service" style="display:none">
+                <h2>Personal training & fitness</h2>
+                <p>info</p> 
             </div>
-            <div id="Tokyo" class="w3-container city" style="display:none">
-                <h2>Tokyo</h2>
-                <p>Tokyo is the capital of Japan.</p>
+            <div id="Holistic" class="services-container service" style="display:none">
+                <h2>Holistic therapies</h2>
+                <p>info</p>
+            </div>
+            <div id="Training" class="services-container service" style="display:none">
+                <h2>Professional training</h2>
+                <p>info</p>
+            </div>
+            <div id="Yoga" class="services-container service" style="display:none">
+                <h2>Yoga</h2>
+                <p>info</p>
+            </div>
+            <div id="Massage" class="services-container service" style="display:none">
+                <h2>Sports massage</h2>
+                <p>info</p>
             </div>
         </div>
     </div>
