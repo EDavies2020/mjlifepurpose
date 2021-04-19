@@ -11,8 +11,8 @@
 </head>
 <body>
 <!--navbar-->
-<div class="container-fluid">
-    <div class="row">
+<div class="container-fluid homepage">
+    <div class="row no-gutters topbar">
         <div class="col-12">
             <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,7 @@
                             <a class="nav-link" href="aboutme.html">My Story</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="lifecoaching.html">Life Coaching</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="yoga.html">Yoga</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="fitness.html">Fitness</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="massage.html">Massage</a>
+                            <a class="nav-link" href="therapies.html">Therapies</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Get in Touch</a>
@@ -45,11 +36,55 @@
                 </div>
             </nav>
         </div>
-    </div>    
+    </div>
+<!--header-->
+    <div class="row no-gutters">
+        <div class="col-12 other-header">
+            <div class="other-header-text">
+                <h1>Michael J</h1>
+                <h3>Life Purpose...</h3>
+                <h5>“A life of limitless possibilities is <strong>always</strong> the only option”</h5>
+            </div>
+        </div>
+    </div>
+<!--therapies-->
+<section>
+    <div class="row no-gutters">
+        <div class="col-12 therapy-tabs">
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+            </div>
+            <div id="London" class="w3-container city">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+            </div>
+            <div id="Paris" class="w3-container city" style="display:none">
+                <h2>Paris</h2>
+                <p>Paris is the capital of France.</p> 
+            </div>
+            <div id="Tokyo" class="w3-container city" style="display:none">
+                <h2>Tokyo</h2>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+        </div>
+    </div>
+</section>
 <!--footer-->
     <footer>
+        <div class="row no-gutters footer">
+            <div class="col-12">
+                <p><i class="fas fa-map-marker-alt"></i> Michael J Life Purpose, Dryslwyn, Carmarthen, SA32 8RJ</p>
+                <p><a href="https://www.facebook.com/profile.php?id=100009720963041" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a></p>
+                <p><a href="tel:07595041953"><i class="fas fa-mobile-alt fa-lg fa-lg"></i> 07595 041953</a></p>
+                <p><a href="email:michaeljdavies1@yahoo.co.uk"><i class="fas fa-envelope-square fa-lg"></i> michaeljdavies1@yahoo.co.uk </a></p>
+                <p id="copywrite">©EDavies 2020 Copyright</p>
+            </div>
+        </div>
     </footer>
 </div>
+<script src="assets/javascript/script.js" defer></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

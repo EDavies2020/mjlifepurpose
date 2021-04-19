@@ -63,8 +63,7 @@ font-family: 'Dancing Script', cursive; */
 .hero-image-text h5 {
     text-align: center;
     font-family: 'Flamenco', cursive;
-    font-size: 30px;
-    /* font-weight: bold; */
+    font-size: 34px;
     font-style: italic;
     margin-top: 60px;
     margin-bottom: -55px;
@@ -100,13 +99,13 @@ font-family: 'Dancing Script', cursive; */
     padding-top: 50px;
 }
 .welcome-letter img {
-    float: right;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    border-radius: 110px 110px 110px 0px;
-    width: 300px;
-    height: auto;
+        float: right;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+        border-radius: 110px 110px 110px 0px;
+        width: 300px;
+        height: auto;
 }
 .welcome-letter h6 {
     font-family: 'Dancing Script', cursive;
@@ -160,46 +159,44 @@ font-family: 'Dancing Script', cursive; */
 #copywrite {
     font-size: small;
 }
-.other-header{
-    background-color: white;
-    border-bottom: solid 2.5px rgb(233, 62, 147);
+/* --about me page-- */
+.other-header {
+    width:100%;
+    height:auto;
+    background: url("../images/subpagebground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    margin-top: 20px;
 }
-.other-header h1 img {
-    display: block;
-    width: 20%;
-    margin-right: auto;
-    margin-left: auto;
-}
-.other-header h3 {
+.other-header-text h1 {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: black;
-    padding-left: 115px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    color: #fafafa;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
-.other-header h5 {
+.other-header-text h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 180px;
+    color: #49dde7;
+    background-color: rgba(7, 7, 7, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.other-header-text h5 {
     text-align: center;
     font-family: 'Flamenco', cursive;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 34px;
     font-style: italic;
-    padding-top: 15px;
-    padding-left: 45px;
-    color: rgb(31, 192, 45);
-}
-.other-header ul { 
-    text-align: center;
-    padding-top: 10px;
-}
-.other-header ul li { 
-    display: inline;
-    font-family: 'Roboto Slab', serif;
-    padding-top: 0px 10px;
-    margin: 5px;
-}
-.business-name-other {
-    text-align: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: #fafafa;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 1px 1px rgba(173, 169, 169, 0.822);
+    padding-bottom: 40px;
 }
