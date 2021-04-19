@@ -159,7 +159,7 @@ font-family: 'Dancing Script', cursive; */
 #copywrite {
     font-size: small;
 }
-/* --about me page-- */
+/* --other pages headers-- */
 .other-header {
     width:100%;
     height:auto;
@@ -169,6 +169,7 @@ font-family: 'Dancing Script', cursive; */
     background-size:cover;
     background-attachment: scroll;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .other-header-text h1 {
     text-align: center;
@@ -198,5 +199,45 @@ font-family: 'Dancing Script', cursive; */
     padding-left: 10px;
     padding-right: 10px;
     text-shadow: 1px 1px rgba(173, 169, 169, 0.822);
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
+
+/* --about me-- */
+
+/* --services page-- */
+.services-tabs {
+    border-top: solid 2.5px #73ad21;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.bar-item {
+    color: #fafafa;
+    background-color: #a78aa791;
+    border: none;
+    padding: 10px;
+    padding-right: 75px;
+}
+.bar-item:hover {
+    color: black;
+    background-color: #460c4681;
+}
+.services-container h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    border-bottom: solid 0.5px #460c4681;
+}
+.services-container h6 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services-container p {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* --contact page-- */
