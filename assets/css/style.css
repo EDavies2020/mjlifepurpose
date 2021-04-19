@@ -229,15 +229,37 @@ font-family: 'Dancing Script', cursive; */
     font-size: 50px;
     border-bottom: solid 0.5px #460c4681;
 }
+.services-container h4 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(75, 121, 103);
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.services-container h5 {
+    text-align: center;
+    color: rgba(37, 37, 160, 0.966);
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+}
 .services-container h6 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .services-container p {
     text-align: center;
     font-family: 'Roboto Slab', serif;
+}
+.lcquest1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 100%;
 }
 
 /* --contact page-- */
