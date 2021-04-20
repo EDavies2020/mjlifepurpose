@@ -249,13 +249,16 @@ font-family: 'Dancing Script', cursive; */
     font-family: 'Roboto Slab', serif;
     padding: 10px 15px;
 }
-.lcquest1 {
+.services-container ol li {
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 15px;
+}
+.lcquest1, .lcquest4, .lcquest5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     padding-bottom: 20px;
-    border-radius: 100%;
 }
 .lcquest2, .lcquest3 {
     display: block;
