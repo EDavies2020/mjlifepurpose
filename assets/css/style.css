@@ -238,12 +238,16 @@ font-family: 'Dancing Script', cursive; */
     color: black;
     background-color: #460c4681;
 }
+.services-container {
+    text-align: center;
+}
 .services-container h2 {
     text-align: center;
     margin-top: 100px;
     font-family: 'Special Elite', cursive;
     font-size: 50px;
     border-bottom: solid 0.5px #460c4681;
+    margin-bottom: 35px;
 }
 .services-container h4 {
     text-align: center;
