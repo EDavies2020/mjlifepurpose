@@ -286,14 +286,14 @@ font-family: 'Dancing Script', cursive; */
     border: none;
     color: darkgoldenrod;
   }
-.lcquest1, .lcquest4, .lcquest5, .lcquest6 {
+.servicesimage1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     padding-bottom: 20px;
 }
-.lcquest2, .lcquest3 {
+.servicesimage2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
