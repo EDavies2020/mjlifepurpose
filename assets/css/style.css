@@ -228,6 +228,20 @@ font-family: 'Dancing Script', cursive; */
 }
 
 /* --about me-- */
+.about-me {
+    border-top: solid 2.5px #73ad21;
+}
+.michael1 {
+    float: left;
+    margin-right: 40px;
+    width: 200px;
+    height: auto;
+}
+.m1text {
+    margin-top: 40px;
+}
+
+
 
 /* --services page-- */
 .services-tabs {
@@ -322,12 +336,7 @@ font-family: 'Dancing Script', cursive; */
 
 /* springboard-page */
 
-.container-fluid-sb {
-    background-color: rgba(187, 182, 204, 0.459);
-}
-
 /* springboard-page Hero-image */
-
 .springboard-image {
     background: url('../images/springboard/leaping2.jpg');
     width:100%;
@@ -338,6 +347,7 @@ font-family: 'Dancing Script', cursive; */
     background-attachment: scroll;
     border-top: solid 2px white;
     border-bottom: solid 2px white;
+    margin-top: 20px;
 }
 .springboard-image-text {
     text-align: center;
