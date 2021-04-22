@@ -150,13 +150,18 @@ font-family: 'Dancing Script', cursive; */
     margin: 45px 45px 40px 40px;
 }
 .carousel-item {
-    background: lightgrey;
+    background: #8d9c7986;
 }
 .blockquote p {
-    color: green;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 80px;
 }
 .blockquote-footer b {
-    color: blue;
+    font-family: 'Special Elite', cursive;
+    color: #fafafa;
+    font-size: 22px;
+    padding-left: 15px;
 }
 /* --footer-- */
 .footer {
@@ -236,14 +241,14 @@ font-family: 'Dancing Script', cursive; */
 } */
 .bar-item {
     /* float: left; */
-    background-color: #55285577;
-    color: #fafafa;
+    background-color: #8d9c7986;
+    color: rgb(114, 110, 110);
     border: none;
     padding: 10px;
     padding-right: 75px;
 }
 .bar-item:hover {
-    color: black;
+    color: #fafafa;
     background-color: #460c4681;
 }
 .bar-item:active {
