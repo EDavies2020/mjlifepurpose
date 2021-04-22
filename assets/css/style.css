@@ -146,6 +146,18 @@ font-family: 'Dancing Script', cursive; */
 .image-text a {
     color: white;
 }
+.text-center {
+    margin: 45px 45px 40px 40px;
+}
+.carousel-item {
+    background: lightgrey;
+}
+.blockquote p {
+    color: green;
+}
+.blockquote-footer b {
+    color: blue;
+}
 /* --footer-- */
 .footer {
     text-align: center;
@@ -153,7 +165,7 @@ font-family: 'Dancing Script', cursive; */
     font-weight: 500;
     border-top: solid 2.5px #73ad21;
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .footer p a {
     color: black;
