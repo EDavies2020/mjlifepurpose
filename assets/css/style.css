@@ -231,17 +231,42 @@ font-family: 'Dancing Script', cursive; */
 .about-me {
     border-top: solid 2.5px #73ad21;
 }
+#top-text {
+    margin-top: 85px;
+}
+.about-me p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.about-me h5 {
+    color: #73ad21;
+    font-size: 30px;
+    font-family: 'Flamenco', cursive;
+    font-weight: bold;
+    margin-top: 30px;
+}
 .michael1 {
     float: left;
-    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
     width: 200px;
     height: auto;
 }
-.m1text {
-    margin-top: 40px;
+.quote {
+    float: right;
+    margin: 16px;
+    width: 220px;
+    height: auto;
 }
-
-
+.onknees {
+    float: left;
+    margin: 16px;
+    width: 220px;
+    height: auto;
+}
 
 /* --services page-- */
 .services-tabs {
@@ -250,9 +275,6 @@ font-family: 'Dancing Script', cursive; */
     padding-bottom: 50px;
     margin-bottom: 40px;
 }
-/* .services-bar {
-    background-color: #55285577;
-} */
 .bar-item {
     /* float: left; */
     background-color: #8d9c7986;
@@ -371,9 +393,7 @@ font-family: 'Dancing Script', cursive; */
     text-shadow: 1px 1px 1px black, 0 0 20px black;
     font-size: 24px;
 }
-
 /* springboard-page intro text */
-
 .sb-main-text {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -393,9 +413,7 @@ font-family: 'Dancing Script', cursive; */
 .sb-main-text p {
     padding: 12px 20px;
 }
-
 /* springboard-page About us */
-
 .about-us-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -462,9 +480,7 @@ font-family: 'Dancing Script', cursive; */
     letter-spacing: 3px;
     padding: 25px;
 }
-
 /* springboard-page weekend workshops*/
-
 .weekend-workshops-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -490,9 +506,7 @@ text-decoration: underline;
 .weekend-workshops-text p a:hover {
 color: white;
 }
-
 /* springboard footer */
-
 .springboard-footer {
     border-top: solid 2px white;
     background-color: rgba(187, 182, 204, 0.74);
