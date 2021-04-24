@@ -236,12 +236,15 @@ font-family: 'Dancing Script', cursive; */
 }
 .about-me p {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-size: 22px;
     margin-top: 15px;
 }
 .about-me h5 {
     color: #73ad21;
+    text-shadow: 1px 1px 1px black;
     font-size: 30px;
+    text-align: center;
     font-family: 'Flamenco', cursive;
     font-weight: bold;
     margin-top: 30px;
@@ -258,16 +261,42 @@ font-family: 'Dancing Script', cursive; */
 .quote {
     float: right;
     margin: 16px;
-    width: 220px;
+    width: 290px;
     height: auto;
 }
 .onknees {
     float: left;
     margin: 16px;
-    width: 220px;
+    width: 270px;
     height: auto;
 }
-
+.michael2 {
+    float: right;
+    margin: 16px;
+    width: 280px;
+    height: auto;
+}
+.image-triple img {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.about-me-testimonial {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.about-me-testimonial h4 {
+    color: #73ad21;
+    font-family: 'Flamenco', cursive;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.about-me-testimonial .carousel-item {
+    text-align: center;
+    background-color: rgba(32, 32, 133, 0.349);
+    margin-top: 20px;
+    padding: 20px;
+}
 /* --services page-- */
 .services-tabs {
     border-top: solid 2.5px #73ad21;
