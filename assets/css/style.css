@@ -383,6 +383,7 @@ font-family: 'Dancing Script', cursive; */
     font-family: 'Dancing Script', cursive;
     padding-top: 30px;
     padding: 25px 40px;
+    font-size: 40px;
 }
 .services-container p {
     text-align: center;
