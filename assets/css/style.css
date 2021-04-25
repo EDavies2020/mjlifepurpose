@@ -415,11 +415,75 @@ font-family: 'Dancing Script', cursive; */
     width: 200px;
     padding-bottom: 20px;
 }
-
 /* --contact page-- */
-
+.contact-details {
+    border-top: solid 2.5px #73ad21;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-details h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 40px;
+}
+.contact-details p {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+}
+.contact-details p a {
+    color: rgba(91, 44, 177, 0.966);
+    padding: 0px 20px;
+}
+.terms {
+    border-top: solid 2.5px #73ad21;
+    text-align: center;
+    padding: 40px 20px;
+}
+.terms h3 {
+    padding: 40px 20px;
+    font-family: 'Dancing Script', cursive;
+    color: rgba(91, 44, 177, 0.966);
+}
+.terms p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+.data {
+    border-top: solid 2.5px #73ad21;
+    text-align: center;
+    padding: 40px 20px;
+}
+.data h3 {
+    padding: 40px 20px;
+    font-family: 'Dancing Script', cursive;
+    color: rgba(91, 44, 177, 0.966);
+}
+.data p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+.payments {
+    border-top: solid 2.5px #73ad21;
+    text-align: center;
+    padding: 40px 20px;
+}
+.payments h3 {
+    padding: 40px 20px;
+    font-family: 'Dancing Script', cursive;
+    color: rgba(91, 44, 177, 0.966);
+}
+.payments p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+}
+.contact-test h3{
+    padding: 40px 20px;
+    font-family: 'Dancing Script', cursive;
+    color: rgba(91, 44, 177, 0.966);
+    text-align: center;
+    font-size: 50px;
+}
 /* springboard-page */
-
 /* springboard-page Hero-image */
 .springboard-image {
     background: url('../images/springboard/leaping2.jpg');
