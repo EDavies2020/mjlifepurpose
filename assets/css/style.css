@@ -416,6 +416,13 @@ font-family: 'Dancing Script', cursive; */
     width: 200px;
     padding-bottom: 20px;
 }
+.sport_images img {
+    /* display: inline-block; */
+    width: 23%;
+    height: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* --contact page-- */
 .contact-details {
     border-top: solid 2.5px #73ad21;
